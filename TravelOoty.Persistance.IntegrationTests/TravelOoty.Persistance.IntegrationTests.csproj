@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.13" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TravelOoty.Application\TravelOoty.Application.csproj" />
+    <ProjectReference Include="..\TravelOoty.Domain\TravelOoty.Domain.csproj" />
+    <ProjectReference Include="..\TravelOoty.Persistance\TravelOoty.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
